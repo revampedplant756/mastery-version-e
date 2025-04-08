@@ -1,0 +1,500 @@
+   10  driver.py
+   11  make clean
+   12  make all
+   13  driver.py
+   14  ./runner -r traces/amptjp-bal.rep
+   15  make clean
+   16  make all
+   17  ./runner -r traces/amptjp-bal.rep
+   18  make clean
+   19  make all
+   20  driver.py
+   21  make clean
+   22  make all
+   23  driver.py
+   24  make all
+   25  make clean
+   26  make all
+   27  driver.py
+   28  make clean
+   29  make all
+   30  driver.py
+   31  make clean
+   32  make all
+   33  driver.py
+   34  make clean
+   35  make all
+   36  driver.py
+   37  ./runner -r traces/amptjp-bal.rep
+   38  make clean
+   39  make debug
+   40  gdb ./runner
+   41  make clean
+   42  make all
+   43  driver.py
+   44  driver.py
+   45  make clean
+   46  make all
+   47  driver.py
+   48  make clean
+   49  make al
+   50  make all
+   51  make clean
+   52  make all
+   53  make clean
+   54  make all
+   55  driver.py
+   56  driver.py
+   57  make clean
+   58  make all
+   59  ./runner -rcv traces/amptjp-bal.rep
+   60  ./runner -r traces/amptjp-bal.rep
+   61  make clean
+   62  make debug
+   63  gdb ./runner
+   64  make clean
+   65  make debug
+   66  gdb ./runner
+   67  y
+   68  make clean
+   69  make all
+   70  make clean
+   71  make debug
+   72  gdb ./runner
+   73  make clean
+   74  make all
+   75  driver.py
+   76  make clean
+   77  make all
+   78  make clean
+   79  make all
+   80  driver.py
+   81  make clean
+   82  make debug
+   83  gdb ./runner
+   84  make clean
+   85  make debug
+   86  r
+   87  gdb ./run
+   88  y
+   89  gdb ./runner
+   90  make clean
+   91  make all
+   92  driver.py
+   93  make clean
+   94  make all
+   95  driver.py
+   96  make clean
+   97  make debug
+   98  gdb ./runner
+   99  make clean
+  100  make debug
+  101  r
+  102  r
+  103  gdb ./runner
+  104  make clean
+  105  make all
+  106  ./runner -r coalescing-bal.rep
+  107  ./runner -r traces/coalescing-bal.rep
+  108  driver.py
+  109  make clean
+  110  make all
+  111  driver.py
+  112  make clean
+  113  make all
+  114  git status -A
+  115  git status
+  116  git add -A
+  117  git commit -m "first iteration of the improved version"
+  118  git push
+  119  git push
+  120  git push
+  121  driver.py
+  122  driver.py
+  123  make clean
+  124  make all
+  125  driver.py
+  126  make clean
+  127  make all
+  128  make clean
+  129  make all
+  130  driver.py
+  131  make clean
+  132  make all
+  133  make clean
+  134  make all
+  135  driver.py
+  136  make clean
+  137  make all
+  138  driver.py
+  139  git clean
+  140  git status
+  141  git add -A
+  142  git commit -m "Finish cleaning code and styling"
+  143  git push
+  144  ls
+  145  ls
+  146  code mm-lab-revampedplant756/
+  147  make clean
+  148  make all
+  149  ./runner
+  150  ./runner -r binary.rep
+  151  ./runner -r ./traces/binary.rep
+  152  make clean
+  153  make debug
+  154  gdb ./runner
+  155  cd ..
+  156  ls 
+  157  code ci-lab-revampedplant756/
+  158  make clean
+  159  make all
+  160  ./bin/ci
+  161  ./bin/ci -i testcases/week2.add.s
+  162  ./bin/ci -i testcases/week2/add.s
+  163  make clean
+  164  make debug
+  165  gd bin/ci
+  166  gdb bin/ci
+  167  ls
+  168  code ci-lab-revampedplant756/
+  169  make clean
+  170  make deb ug
+  171  make debug
+  172  gdb ./bin.ci
+  173  gdb ./bin/ci
+  174  make clean
+  175  make build
+  176  make all
+  177  cd ..
+  178  ls
+  179  code mm-lab-revampedplant756/
+  180  ls
+  181  make clean
+  182  make all
+  183  ./runner -h
+  184  ./runner -r short1.rep
+  185  ./runner -r traces/short1.rep
+  186  make clena
+  187  make clean
+  188  make all
+  189  cd ..
+  190  ls
+  191  code ci-lab-revampedplant756/
+  192  make clean
+  193  make all
+  194  ./bin/ci -i testcases/week2/add.s
+  195  make clean
+  196  make debug
+  197  gdb bin/ci
+  198  git status
+  199  git status
+  200  git add -A
+  201  git commit -m "awef"
+  202  git push
+  203  cd //
+  204  cd ..
+  205  cd..
+  206  ls
+  207  ls
+  208  code mm-lab-revampedplant756/
+  209  make clean
+  210  make all
+  211  make clean
+  212  make all
+  213  make clean
+  214  make all
+  215  ./runner -h
+  216  ls
+  217  touch .gdbinit
+  218  ls
+  219  https://github.com/CS429-SP2025/shared-repo-version-b-revampedplant756.git
+  220  git clone https://github.com/CS429-SP2025/shared-repo-version-b-revampedplant756.git
+  221  ls
+  222  code shared-repo-version-b-revampedplant756/
+  223  ls
+  224  code shared-repo-version-b-revampedplant756/
+  225  make clean
+  226  make all
+  227  make mini_ci
+  228  make clean
+  229  make debug
+  230  make clean
+  231  make mini_co
+  232  make mini_ci
+  233  mini_ci basic_add.s
+  234  make clean
+  235  make debug
+  236  gdb mini_ci
+  237  make clean
+  238  make debug
+  239  make clean
+  240  make debug
+  241  gdb mini_ci
+  242  gdb mini_ci
+  243  git status -A
+  244  git add -A
+  245  git commit -m "done"
+  246  git push
+  247  cd ..
+  248  ls
+  249  rm shared-repo-version-b-revampedplant756/
+  250  rm -rf shared-repo-version-b-revampedplant756/
+  251  ls
+  252  ls
+  253  rm -rf shared-repo-version-b-revampedplant756/
+  254  ls
+  255  git clone https://utexas.instructure.com/courses/1414930/assignments/7005766
+  256  git clone https://github.com/CS429-SP2025/se-lab-shawtvik.git
+  257  ls
+  258  code se-lab-shawtvik/
+  259  ls
+  260  cd ..
+  261  ls
+  262  ls -a
+  263  ls -a
+  264  ls
+  265  cd se-lab-shawtvik/
+  266  git status
+  267  cd ..
+  268  cd luser
+  269  cd lusr
+  270  ls -a
+  271  ls .
+  272  ls
+  273  cd .
+  274  ls
+  275  which gcc-14
+  276  git status
+  277  cd se-lab-shawtvik/
+  278  git status
+  279  git rm --cached .vscode/
+  280  git rm --cached .vscode/ -r
+  281  git status
+  282  git add -A
+  283  git commit -m "changed gitignore"
+  284  git push
+  285  ls
+  286  cd se-lab-shawtvik/
+  287  cd ..
+  288  code se-lab-shawtvik/
+  289  man grep
+  290  grep -r -e "cond_holds"
+  291  man grep
+  292  grep -rn -e "cond_holds" src/ include/
+  293  git status
+  294  git add -A
+  295  git commit -m "switch"
+  296  git push
+  297  ls
+  298  code se-lab-shawtvik/
+  299  code se-lab-shawtvik/
+  300  ls
+  301  code se-lab-shawtvik/
+  302  git pull
+  303  make week1
+  304  make week1
+  305  week1
+  306  make all
+  307  make week1
+  308  test-hw
+  309  ./bin/test-hw
+  310  make clean
+  311  make debug
+  312  make week1
+  313  gdb ./bin/test-hw
+  314  test-hw -v
+  315  test-hw -v 2
+  316  ./bin/test-hw -v 2
+  317  make week1
+  318  ./bin/test-hw -v 2
+  319  gdb bin/test-hw
+  320  make test-hw
+  321  make week1
+  322  ./bin/test-hw
+  323  ./bin/test-hw -v 2
+  324  gdb ./bin/test-hw
+  325  make week1
+  326  ./bin/test-hw
+  327  make week1
+  328  ./bin/test-hw
+  329  gdb ./bin/test-hw
+  330  git status
+  331  git add -A
+  332  git commit -m "regfile"
+  333  git push
+  334  gbd ./bin.test-hw
+  335  gdb ./bin.test-hw
+  336  gbd ./bin/test-hw
+  337  gdb ./bin/test-hw
+  338  make clean
+  339  make week1
+  340  gdb ./bin/test-hw
+  341  gdb ./bin/test-hw
+  342  git restore .
+  343  git restore .
+  344  git pull
+  345  make clean
+  346  make test-hw
+  347  make week1
+  348  ./bin/test-hw
+  349  git status
+  350  git add -A
+  351  git commit -m "fixed regfile bug"
+  352  git push
+  353  git pull
+  354  make clena
+  355  make clean
+  356  make week2
+  357  compiledb make
+  358  compiledb
+  359  pip
+  360  pip install compiledb
+  361  compiledb make
+  362  ~/.local/bin/compiledb make
+  363  cat compile_commands.json
+  364  make | ~/.local/bin/compiledb
+  365  git status
+  366  git add -A
+  367  git commit -m "finished extract_immval"
+  368  git push
+  369  make week1
+  370  gdb ./bin/test-hw
+  371  make debug
+  372  gdb runner
+  373  touch tester.txt
+  374  gdb runner
+  375  runner
+  376  make all
+  377  make clean
+  378  make debug
+  379  gdb ./bin/ci
+  380  touch tester.txt
+  381  gdb ./bin/ci
+  382  rm tester.txt
+  383  ls
+  384  ls -A
+  385  code .gdbinit
+  386  pwd
+  387  rm .gdbinit
+  388  ls -A
+  389  touch .gdbinit
+  390  ls -A
+  391  rm .gdbinit
+  392  ls -A
+  393  history
+  394  ls -A
+  395  touch shell_logs.txt
+  396  ls -A
+  397  shell_logs.txt
+  398  rm shell_logs.txt
+  399  ls -A
+  400  history > shell_logs.txt
+  401  code shell_logs.txt
+  402  rm shell_logs.txt
+  403  ls -A
+  404  show commands
+  405  code se-lab-shawtvik/
+  406  cdoe mm-lab-revampedplant756/
+  407  code mm-lab-revampedplant756/
+  408  ls -A
+  409  code ci-lab-revampedplant756/
+  410  touch .gdbinit
+  411  code .gdbinit
+  412  clone https://github.com/revampedplant756/mastery-version-a.git
+  413  git clone https://github.com/revampedplant756/mastery-version-a.git
+  414  ls
+  415  code mastery-version-a/
+  416  make tests
+  417  make
+  418  mini_ci
+  419  make check
+  420  make clean
+  421  make
+  422  mini_ci testcases/err_ops.s
+  423  mini_ci testcases/err_ops.s
+  424  make clean
+  425  make debug
+  426  gdb mini_c
+  427  gdb mini_ci
+  428  make check
+  429  make clean
+  430  make debuig
+  431  make debug
+  432  gdb mini_ci
+  433  mini_ci err_ops.s
+  434  make clean
+  435  make check
+  436  mini_ci err_ops.s
+  437  mini_ci_reference err_ops.s
+  438  mini_ci testcases/err_ops.s
+  439  gdb mini_ci
+  440  gdb miniq
+  441  make clean
+  442  make debug
+  443  gdb mini_ci
+  444  make clean
+  445  make check
+  446  make check
+  447  make clean
+  448  make debug
+  449  gdb mini_ci
+  450  make clean
+  451  make check
+  452  history > shell_logs.txt
+  453  touch gdb_logs.txt
+  454  make clean
+  455  make debug
+  456  gdb mini_ci
+  457  git status
+  458  git add -A
+  459  git commit -m "done"
+  460  git push
+  461  cd ..
+  462  man rm
+  463  ls
+  464  rm mastery-version-a/ -rf
+  465  ls
+  466  code se-lab-shawtvik/
+  467  git pull
+  468  git pull -f
+  469  git pull --force
+  470  git fetch -all
+  471  git fetch --all
+  472  git reset --hard origin/main
+  473  gcc --version
+  474  which gcc-14
+  475  which gcc
+  476  gcc --version
+  477  which gcc-9
+  478  git pull
+  479  git pull
+  480  git fetch --all
+  481  git reset --hard origin/main
+  482  make week2
+  483  test-se
+  484  ./bin/test-se
+  485  git status
+  486  git add -A
+  487  git commit -m "finished pipe- need to debug"
+  488  git push
+  489  git push
+  490  git pull
+  491  ls -A
+  492  rm .gdbinit
+  493  ls -A
+  494  touch .gdbinit
+  495  code .gdbinit
+  496  code .gdbinit
+  497  git clone https://github.com/revampedplant756/mastery-version-e.git
+  498  cd mastery-version-e/
+  499  cd ..
+  500  code mastery-version-e/
+  501  make tests
+  502  make check
+  503  make cleanm
+  504  make clean
+  505  make debug
+  506  gdb mini_ci
+  507  make clean
+  508  make check
+  509  history > shell_logs.txt

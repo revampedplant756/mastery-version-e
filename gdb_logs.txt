@@ -1,0 +1,10 @@
+    1  b calculator.c:8
+    2  r basic_add.s
+    3  n
+    4  kill
+    5  r ./testcases/basic_add.s
+    6  n
+    7  q
+    8  set logging file gdb_logs.txt
+    9  set logging on
+   10  show commands
